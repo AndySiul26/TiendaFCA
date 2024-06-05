@@ -48,7 +48,7 @@ https://github.com/AndySiul26/TiendaFCA
 
 ---
 ### Notas
--> Se dejó un script psql para crear la base de datos que se ha ido construyendo durante el semestre con las tres tablas "productos", "clientes", "ordenes".
+* Se dejó un script psql para crear la base de datos que se ha ido construyendo durante el semestre con las tres tablas "productos", "clientes", "ordenes".
 ---
 ## Referencias
 - Martinez Fernandez, J. M. (s.f.). Proyecto-Api para el desarrollo de la actividad. Obtenido de https://github.com/tiempor3al/proyecto-api
