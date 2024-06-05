@@ -50,7 +50,7 @@ public class StoreDal {
         ResponseDto<List<ClientDto>> responseDto = new ResponseDto<>();
         responseDto.setSuccess(true);
         Jdbi jdbi = jdbiService.getInstance();
-        var clients = jdbi.withExtension(StoreDao.class, StoreDao::getClients);
+        var clients = jdbi.withExtension(StoreDao.class, dao -> dao.getClients());
         responseDto.setData(clients);
         return responseDto;
     }

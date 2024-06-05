@@ -1,5 +1,7 @@
 package fca.suayed.dto;
 
+import org.jdbi.v3.core.mapper.reflect.ColumnName;
+
 public class ClientDto {
     private int id;
     private String nombre;
@@ -16,6 +18,7 @@ public class ClientDto {
         this.id = id;
     }
 
+    @ColumnName("nombre")
     public String getNombre() {
         return nombre;
     }
@@ -24,6 +27,7 @@ public class ClientDto {
         this.nombre = nombre;
     }
 
+    @ColumnName("ApellidoPaterno")
     public String getApellidoPaterno() {
         return apellidoPaterno;
     }
@@ -32,6 +36,7 @@ public class ClientDto {
         this.apellidoPaterno = apellidoPaterno;
     }
 
+    @ColumnName("ApellidoMaterno")
     public String getApellidoMaterno() {
         return apellidoMaterno;
     }
@@ -40,6 +45,7 @@ public class ClientDto {
         this.apellidoMaterno = apellidoMaterno;
     }
 
+    @ColumnName("RFC")
     public String getRfc() {
         return rfc;
     }

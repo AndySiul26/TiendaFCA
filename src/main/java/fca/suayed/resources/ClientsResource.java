@@ -2,6 +2,7 @@ package fca.suayed.resources;
 
 import fca.suayed.dal.StoreDal;
 
+
 import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
