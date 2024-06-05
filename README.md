@@ -1,5 +1,6 @@
-# Actividad Complementaria 2 Unidad 7: Nuevas tecnologías Bases de Datos FCA - UNAM
-
+# Actividad Complementaria 2  
+# Unidad 7: Nuevas tecnologías
+# Bases de Datos FCA - UNAM
 ## Información del alumno
 - Nombre: Luis Andrés Castro Nagel
 - Grupo: 8491
